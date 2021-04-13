@@ -1,0 +1,25 @@
+{
+  "name": "socialmediaapp",
+  "version": "1.0.0",
+  "description": "creating a social media app using MERNG",
+  "main": "server.js",
+  "scripts": {
+    "serve": "node server",
+    "start": "nodemon server.js"
+  },
+  "author": "Tiutiuc Daniel Cosmin",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "nodemon": "^2.0.5",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.32.1"
+  }
+}
